@@ -2,7 +2,7 @@ require 'faraday'
 
 module GodaddyApi
   class Client
-    API_URL = 'https://api.godaddy.com/v1/cloud/'
+    API_URL = 'https://api.godaddy.com'
 
     attr_reader :key
 
