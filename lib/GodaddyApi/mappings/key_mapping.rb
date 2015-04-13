@@ -4,7 +4,7 @@ module GodaddyApi
 
     kartograph do
       mapping Key
-      root_key plural: 'keys', singular: 'key', scopes: [:read]
+      root_key plural: 'results', scopes: [:read]
 
       property :keyId, scopes: [:read]
       property :name, scopes: [:read]

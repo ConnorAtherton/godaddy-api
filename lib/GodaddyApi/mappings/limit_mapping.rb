@@ -4,7 +4,7 @@ module GodaddyApi
 
     kartograph do
       mapping Limit
-      root_key plural: 'limits', singular: 'limits', scopes: [:read]
+      root_key plural: 'results', scopes: [:read]
 
       property :servers, scopes: [:read]
       property :snapshots, scopes: [:read]

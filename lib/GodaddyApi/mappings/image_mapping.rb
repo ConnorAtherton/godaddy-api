@@ -4,7 +4,7 @@ module GodaddyApi
 
     kartograph do
       mapping Image
-      root_key plural: 'images', singular: 'image', scopes: [:read]
+      root_key plural: 'results', scopes: [:read]
 
       property :imageId, scopes: [:read]
       property :version, scopes: [:read]
