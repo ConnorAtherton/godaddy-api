@@ -4,7 +4,6 @@ module GodaddyApi
 
     kartograph do
       mapping Server
-      # TODO this ignores pagination
       root_key plural: 'results', scopes: [:read]
 
       property :serverId, scopes: [:read]

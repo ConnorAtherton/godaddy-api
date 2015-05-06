@@ -21,4 +21,11 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.8"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "pry"
+
+  spec.add_dependency "faraday"
+  spec.add_dependency "kartograph"
+  spec.add_dependency "virtus"
+  spec.add_dependency "resource_kit"
+  spec.add_dependency "activesupport"
 end

@@ -5,11 +5,13 @@ module GodaddyApi
     attribute :spec
     attribute :privateIp
     attribute :username
+    attribute :password
     attribute :publicIp
     attribute :status
     attribute :taskState
     attribute :key
     attribute :hostname
     attribute :backups
+    attribute :bootScript
   end
 end
