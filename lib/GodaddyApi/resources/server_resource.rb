@@ -26,11 +26,11 @@ module GodaddyApi
       end
 
       action :start, 'POST /v1/cloud/servers/:id/start' do
-        handler(200) { |_| true }
+        handler(202) { |_| true }
       end
 
       action :stop, 'POST /v1/cloud/servers/:id/stop' do
-        handler(200) { |_| true }
+        handler(202) { |_| true }
       end
     end
   end
