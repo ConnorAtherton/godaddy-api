@@ -6,8 +6,8 @@ module GodaddyApi
       mapping Key
       root_key plural: 'results', scopes: [:read]
 
-      property :keyId, scopes: [:read]
-      property :name, scopes: [:read]
+      property :keyId, :name, scopes: [:read]
+      property :key, :name, scopes: [:create]
     end
   end
 end
